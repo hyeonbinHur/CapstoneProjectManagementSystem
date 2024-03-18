@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #697184; /*106,112,132 */
+  --text-color: #f2f1ef; /*242,241,239 */
+  --dark-color: #413f3d; /*65,63,61 */
+  --light-brown-color: #b1a6a4; /*177,166,164 */
+  --nude-color: #d8cfd0;
+  --red: #fe0000;
+  --green: #06aa6d;
+  --grey: #a5a2a2;
+
+  --header-height: 75px;
+
+  --font: 'Poppins', sans-serif;
+  --fw-1: 400;
+  --fw-2: 500;
+  --fw-3: 600;
+  --fw-4: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--grey);
+  color: black;
+}
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  margin-top: 50;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  border-top-color: #333;
+  animation: spin 1s ease-in-out infinite;
+}
+.lock-cursor {
+  cursor: url(../images/capstone-info/lock.svg), auto !important;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

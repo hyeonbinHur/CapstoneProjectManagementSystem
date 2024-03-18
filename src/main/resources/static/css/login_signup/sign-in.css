@@ -1,0 +1,24 @@
+.btn-controller:nth-child(1) {
+  background-color: #1877f2;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+}
+.btn-controller:nth-child(2) {
+  background-color: #4bd131;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.btn-controller:nth-child(1):hover {
+  background-color: #3c8df6;
+}
+.btn-controller:nth-child(2):hover {
+  background-color: #71cf5e;
+}
+#nav-sign-in {
+  background-color: #9c938a;
+}

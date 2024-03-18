@@ -1,0 +1,15 @@
+.grid-item {
+  display: flex;
+  justify-content: center; /* aligns child horizontally */
+  align-items: center; /* aligns child vertically */
+  height: 300px; /* height of parent div */
+}
+
+.company-pagination{
+  margin: 15px 0px;
+  font-size: 1.5rem;
+}
+.page-item{
+  width: 100px;
+  height: 25px;
+}
