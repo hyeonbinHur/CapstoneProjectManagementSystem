@@ -113,9 +113,11 @@ In order to apply for a capstone project, a student must be a member of an exist
 
 >To apply for a capstone project, the student must be a member of an existing group. Through the Capstone Project Detail Page, their group can apply for a group by selecting the “Apply button”.  The student can move to the Capstone Project Detail Page from the Search page where the student can view and search the capstone project.
 
+* ### Student Architecture
+
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/8f35c43a-40e8-4ac0-9506-41de175d4100">
 
 ### Company
-
 
 * ### Create Capstone Project
 Once the company clicks the “Create Capstone” button, the company is required to fill in a form with relevant information. When the company fills in the form, the company can create a capstone project by selecting “Submit” button. 
@@ -128,6 +130,10 @@ The company is able to view their projects’ status. The status is decided by t
 
 <img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/683f8886-e9f0-445e-b139-eaca5ed8df83">
 
+* ### Company Architecture
+
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/be1041ae-47e7-41d2-8f00-014bb8d40a96">
+
 ### Supervisor
 
 * ### View Capstone Projects in Charge
@@ -139,6 +145,10 @@ If the admin decides the supervisor to be a certain project supervisor, the supe
 * ### Edit Capstone Project
 
 <img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/5ce46c78-1a1a-425a-aaee-8dcf116366a2">
+
+* ### Supervisor Architecture
+
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/3e8167f3-e27a-4800-93d5-6a41b8419708">
 
 ### Admin
  
@@ -154,5 +164,16 @@ Once a company creates a capstone project, the capstone project will be displaye
 
 <img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/5a24b5db-f333-4aa6-85c3-df84a377cbe4" width="400">
 
+* ### Admin Architecture
+
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/7024f805-8c1c-484a-ae77-980719c2127f">
+
 
 ## usecase diagram
+
+* ### Usecase diagram for the basic features
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/79b23275-0337-4b9a-9249-13df3bc3c7b8">
+
+* ### Usecase diagram for the specific features
+
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/299182ad-6176-45c9-92c1-5dfa355bf290">
