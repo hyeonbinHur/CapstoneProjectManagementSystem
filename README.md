@@ -59,44 +59,68 @@ The front-end of the Capstone Project Management is required achieve the several
     * Company dashboard:
         * The frontend can display all the pending(waiting for reviewed)/approved/reject capstone lists.
 
-
 ## Features
 
 ### Basics
 
 There are 7 basic features which are the “Sign Up” , “Sign In”, “Log out”, “View Profile”, “Edit Profile”, “Search”, “View Capstone Project Detail”, and “View Other User’s Profile” . For the admin, “Sign In”, “Log out”, “Search”,“View Capstone Project Detail'' and “View Other User’s Profile” are provided, and for the student, company, and supervisor, all 7 features are provided. 
 
+* ### Sign in & Sign up & Log out
+In order to access the application, users must sign up first by selecting the “Sign Up” button. For those who already have an account, they can sign in by entering their username and password into the respective input fields. The user will have access to the home page if the entered username and password are valid. If the username and password are not valid, a warning modal will be displayed.
+
+* ### Search
+By using the "Search" button in the navigation bar, users can access the Search page. The "Search tool box" and the "Capstone project list" can be found once a user accesses the Search page. The user is able to search the capstone projects with various criteria through the search tool box. Options for searching capstone projects include by company, supervisor, and name. The user can also combine several search options to find more accurate results.
+
+* ### View Another User’s Profile
+
+Once the user finds a specific user, it is possible to view that user’s profile by selecting the “Show Info” button, also the profile page can be closed by selecting the “Close button” in the top right  and right button of the profile page.
+
 ### Student
 
-The features that are only available to students will be described in this section. “Create Group”, “Leave Group”,”Apply Capstone Project”, “View Group Information”, and “Join Group” are among the features. Additionally, the “View Profile Page”, and “Edit Profile” are also explained.
+* ### Student Profile 
+The student profile encompasses various important details about the student, including student name, major, contact, email, group, company, capstone project name, capabilities, bibliography and profile image. If the students belong to a group, the group information will be shown, also the capability section showcases the list of the skills the student possesses. If there is no corresponding information, the information will be shown as “N/A”.
 
 * ### Create Group
-* ### Join Group
-* ### Leave Group
-* ### Belongs to Group
-* ### View Group info
-* ### Apply Capstone Project
+By selecting the “Create Group” button, students can create a group. The student must provide the group name in order to create a group.
+
+> It is important to note that to create a group, the student must not be a member of any existing group.
+
+* ### Group Information
+
+The student is able to view their group information by selecting the “Group Info” button in the navigation bar. Once the student moves the Group Info Page, the student is able to view the group name, group members. Also, through the Group Info Page the student can leave the group by selecting the “Leave Group “ button.
+
+* ### Apply a capstone project
+
+In order to apply for a capstone project, a student must be a member of an existing group or they have the option to join another group. The process of applying for a capstone project involves accessing the “Search” page, where students can view and search the capstone projects.
+
+>To apply for a capstone project, the student must be a member of an existing group. Through the Capstone Project Detail Page, their group can apply for a group by selecting the “Apply button”.  The student can move to the Capstone Project Detail Page from the Search page where the student can view and search the capstone project.
+
 
 ### Company
 
-he features for the company will be explained, such as “Create Capstone Project”, “View Capstone Project Status”, and “Delete Capstone Project”. Also, the distinct company’s profile view and edit profile view will be explained.
 
 * ### Create Capstone Project
-* ### View Project Status
-* ### Delete Capstone Project
+Once the company clicks the “Create Capstone” button, the company is required to fill in a form with relevant information. When the company fills in the form, the company can create a capstone project by selecting “Submit” button. 
+
+* ### Capstone Project Status
+
+The company is able to view their projects’ status. The status is decided by the admin and there are three status which are “Pending”, “Approved” and “Reject”. The pending status is waiting for the review from the admin, approved status is approved by admin and it can be assigned by student group, and rejected status is rejected by admin and it can not be assigned by student group.
 
 ### Supervisor
 
- the supervisor’s specific features will be explained such as “View their responsible capstone project”, “Edit Capstone project”. Also, the supervisor’s Profile Page and Edit Profile Page will be explained.
+* ### View Capstone Projects in Charge
 
-* ### View Project in Charge
+If the admin decides the supervisor to be a certain project supervisor, the supervisor is able to view their projects on the main page. Also, they can edit the capstone project’s detailed information by selecting the “Edit button” on the capstone project item. 
+
 * ### Edit Capstone Project
 
 ### Admin
-
-the admin’s specific features in the application will be explained, such as “Decide Capstone Project Status” ,“Decide Supervisor”, and “View All  Users”. 
+ 
 * ### Decide Capstone Project Status
+
+Once a company creates a capstone project, the capstone project will be displayed in the admin’s main page, and the capstone project will be positioned in the request capstone list. The admin is able to view the capstone project information and decide the status by clicking the “Review” button. 
+
 * ### Decide Supervisor
-* ### View All Users
+
 
 ## usecase diagram
