@@ -67,9 +67,23 @@ There are 7 basic features which are the “Sign Up” , “Sign In”, “Log o
 
 * ### Sign in & Sign up & Log out
 In order to access the application, users must sign up first by selecting the “Sign Up” button. For those who already have an account, they can sign in by entering their username and password into the respective input fields. The user will have access to the home page if the entered username and password are valid. If the username and password are not valid, a warning modal will be displayed.
+<div align="center">
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/57d01990-7e79-4e45-90bd-2e3c12e3629a">
+</div>
+
 
 * ### Search
 By using the "Search" button in the navigation bar, users can access the Search page. The "Search tool box" and the "Capstone project list" can be found once a user accesses the Search page. The user is able to search the capstone projects with various criteria through the search tool box. Options for searching capstone projects include by company, supervisor, and name. The user can also combine several search options to find more accurate results.
+<div align="center">
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/1f28b640-89d3-4068-8153-4984bf3c9664">
+</div>
+
+|Search title| Images|
+|:--:|:--:|
+|Stduent|<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/679ad767-0f89-4646-945f-b21b320ec733">|
+|Company|<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/400fe262-9375-460b-a447-2975a3fa35fb">|
+|Group|<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/fea991e0-192a-4e14-a3d2-242de088856f">|
+|Supervisor|<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/4be2a7ab-8a2f-4e43-bd6d-d1f14737cba6">|
 
 * ### View Another User’s Profile
 
@@ -79,19 +93,23 @@ Once the user finds a specific user, it is possible to view that user’s profil
 
 * ### Student Profile 
 The student profile encompasses various important details about the student, including student name, major, contact, email, group, company, capstone project name, capabilities, bibliography and profile image. If the students belong to a group, the group information will be shown, also the capability section showcases the list of the skills the student possesses. If there is no corresponding information, the information will be shown as “N/A”.
+<div align="center">
+<img alt="User profile" src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/d4f2e2cc-592a-414f-8ca0-fab4c5a2ac80" width="400">
+<img alt="Edit profile" src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/42885b52-3a28-4ec8-92d2-cb4747d5ec1a" width="400">
+</div>
 
 * ### Create Group
 By selecting the “Create Group” button, students can create a group. The student must provide the group name in order to create a group.
 
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/23a09d52-ec2e-4eca-a2b5-dab15876aa60">
+
 > It is important to note that to create a group, the student must not be a member of any existing group.
-
-* ### Group Information
-
-The student is able to view their group information by selecting the “Group Info” button in the navigation bar. Once the student moves the Group Info Page, the student is able to view the group name, group members. Also, through the Group Info Page the student can leave the group by selecting the “Leave Group “ button.
 
 * ### Apply a capstone project
 
 In order to apply for a capstone project, a student must be a member of an existing group or they have the option to join another group. The process of applying for a capstone project involves accessing the “Search” page, where students can view and search the capstone projects.
+
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/2e92c30c-6da4-42eb-ba8f-365377aca97f">
 
 >To apply for a capstone project, the student must be a member of an existing group. Through the Capstone Project Detail Page, their group can apply for a group by selecting the “Apply button”.  The student can move to the Capstone Project Detail Page from the Search page where the student can view and search the capstone project.
 
@@ -102,9 +120,13 @@ In order to apply for a capstone project, a student must be a member of an exist
 * ### Create Capstone Project
 Once the company clicks the “Create Capstone” button, the company is required to fill in a form with relevant information. When the company fills in the form, the company can create a capstone project by selecting “Submit” button. 
 
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/74adcb13-623d-4a0f-8819-6c158609dfa8">
+
 * ### Capstone Project Status
 
 The company is able to view their projects’ status. The status is decided by the admin and there are three status which are “Pending”, “Approved” and “Reject”. The pending status is waiting for the review from the admin, approved status is approved by admin and it can be assigned by student group, and rejected status is rejected by admin and it can not be assigned by student group.
+
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/683f8886-e9f0-445e-b139-eaca5ed8df83">
 
 ### Supervisor
 
@@ -112,15 +134,25 @@ The company is able to view their projects’ status. The status is decided by t
 
 If the admin decides the supervisor to be a certain project supervisor, the supervisor is able to view their projects on the main page. Also, they can edit the capstone project’s detailed information by selecting the “Edit button” on the capstone project item. 
 
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/91fb8a25-23b8-4a07-a1ea-2d5caf8e51b7">
+
 * ### Edit Capstone Project
+
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/5ce46c78-1a1a-425a-aaee-8dcf116366a2">
 
 ### Admin
  
-* ### Decide Capstone Project Status
+* ### Review the project
 
 Once a company creates a capstone project, the capstone project will be displayed in the admin’s main page, and the capstone project will be positioned in the request capstone list. The admin is able to view the capstone project information and decide the status by clicking the “Review” button. 
 
-* ### Decide Supervisor
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/44fe6b86-dfee-4bc7-9a85-b7fd4331354e">
+
+* ### Decide Supervisor & project status
+
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/0c928636-259a-4ceb-aa55-fcc57e3cffb7" width="400">
+
+<img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/5a24b5db-f333-4aa6-85c3-df84a377cbe4" width="400">
 
 
 ## usecase diagram
