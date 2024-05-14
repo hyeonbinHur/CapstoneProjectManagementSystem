@@ -12,7 +12,7 @@
 <br>
 
 <div align="center">
-    <img src="image-15.png"  width="300">
+    <img src="https://github.com/hyeonbinHur/CapstoneProjectManagementSystem/assets/160996936/bc69961b-24e9-4b76-99ac-9ba9e052e0c7"  width="300">
 </div>
 
 <details>
